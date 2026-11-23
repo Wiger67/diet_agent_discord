@@ -1,0 +1,43 @@
+# ===== 金鑰和 token：絕對不能 commit =====
+.env
+.env.*
+!.env.example
+
+# ===== 虛擬環境 =====
+.venv/
+venv/
+env/
+
+# ===== Python 快取和建置產物 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ===== 測試和檢查工具的快取 =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ===== 個人資料：飲食紀錄資料庫、測試照片、log =====
+*.db
+*.sqlite
+*.sqlite3
+tests/photos/
+logs/
+*.log
+
+# ===== 編輯器 =====
+.vscode/
+.idea/
+
+# ===== 作業系統產生的檔案 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===== Claude Code 的個人設定 =====
+.claude/settings.local.json
